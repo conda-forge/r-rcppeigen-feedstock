@@ -35,6 +35,7 @@ requirements:
     - r-matrix >=1.1_0
     - r-rcpp >=0.11.0
     - libblas
+    - liblapack
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
