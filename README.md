@@ -3,7 +3,7 @@ About r-rcppeigen
 
 Home: http://dirk.eddelbuettel.com/code/rcpp.eigen.html
 
-Package license: GPL-2
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcppeigen-feedstock/blob/master/LICENSE.txt)
 
