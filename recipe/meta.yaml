@@ -1,4 +1,4 @@
-{% set version = "0.3.3.9.4" %}
+{% set version = "0.3.4.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppEigen_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppEigen/RcppEigen_{{ version }}.tar.gz
-  sha256: 41eabb8d034ffae0fcfcf23ca92b8f0fba5aec8f1ba108d922e19db7e10d5fb9
+  sha256: 28d4a02011129f9b7a2a2bbe69ec4cca7676b072d5aca9dc1cefa8f96af45136
 
 build:
   merge_build_host: true  # [win]
